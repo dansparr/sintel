@@ -1,0 +1,36 @@
+@import "_colors";
+@import "_fonts";
+@import "_base-style";
+
+// Синяя кнопка
+.blue-button {
+  // Цвет
+  background: $gradient;
+  // Рамка
+  border: none;
+  border-radius: 12px;
+  border-bottom: 4px solid $border-bottom;
+  // Размер
+  min-width: 220px;
+  // Позиционирование
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // Эффекты
+  cursor: pointer;
+}
+
+.blue-button__text {
+  // Текст
+  color: $white;
+  font-family: "Museo Sans Cyrl";
+  font-size: 16px;
+  font-weight: 600;
+  margin: 24px 0 20px;
+}
+.blue-button__ico {
+  width: 23px;
+  height: 23px;
+  margin-right: 10px;
+  background-image: url(../img/snowflake.svg);
+}

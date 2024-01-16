@@ -1,0 +1,51 @@
+// 300 Light
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  font-style: normal;
+  font-weight: 300;
+  src: local("MuseoSansCyrl300"),
+    url("../fonts/woff2/MuseoSansCyrl300.woff2") format ("woff2"),
+    url("../fonts/woff/MuseoSansCyrl300.woff") format ("woff"),
+    url ("../fonts/ttf/MuseoSansCyrl300.ttf") format ("ttf"),
+    url ("../fonts/eot/MuseoSansCyrl300.eot") format ("eot");
+  font-display: swap;
+}
+
+// 500 Medium
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  font-style: normal;
+  font-weight: 500;
+  src: local("MuseoSansCyrl500"),
+    url("../fonts/woff2/MuseoSansCyrl500.woff2") format ("woff2"),
+    url("../fonts/woff/MuseoSansCyrl500.woff") format ("woff"),
+    url("../fonts/ttf/MuseoSansCyrl500.ttf") format ("ttf"),
+    url("../fonts/eot/MuseoSansCyrl500.eot") format ("eot");
+  font-display: swap;
+}
+
+// 700 Bold
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  font-style: normal;
+  font-weight: 700;
+  src: local("MuseoSansCyrl700"),
+    url("../fonts/woff2/MuseoSansCyrl700.woff2") format ("woff2"),
+    url("../fonts/woff/MuseoSansCyrl700.woff") format ("woff"),
+    url("../fonts/ttf/MuseoSansCyrl700.ttf") format ("ttf"),
+    url("../fonts/eot/MuseoSansCyrl700.eot") format ("eot");
+  font-display: swap;
+}
+
+// 900 Heavy
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  font-style: normal;
+  font-weight: 900;
+  src: local("MuseoSansCyrl900"),
+    url("../fonts/woff2/MuseoSansCyrl900.woff2") format ("woff2"),
+    url("../fonts/woff/MuseoSansCyrl900.woff") format ("woff"),
+    url("../fonts/ttf/MuseoSansCyrl900.ttf") format ("ttf"),
+    url("../fonts/eot/MuseoSansCyrl900.eot") format ("eot");
+  font-display: swap;
+}
